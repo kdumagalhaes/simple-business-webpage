@@ -7,6 +7,11 @@
     margin: 0;
 }
 
+p{
+    line-height: 1.7rem;
+    padding-bottom: 15px;
+}
+
 button{
     border: none;
 }
@@ -131,13 +136,24 @@ body{
     color: white;
 }
 
+.img-style{
+    border: 1px solid #2651a8;
+}
+
 .row{
     width: 100%;
     height: auto;
 }
 
-.home-top{
+.home-top-bg{
     background-image: url("../imgs/home-bg-top.jpg");
+}
+
+.about-top-bg{
+    background-image: url("../imgs/about-bg-top.jpg");
+}
+
+.top-row{
     color: white;
     height: 700px;
 }
@@ -194,4 +210,17 @@ body{
 
 .home-top-cta{
     margin-top: 150px;
+}
+
+.quote-style{
+    font-style: italic;
+}
+
+.small-title-spacer{
+    margin-bottom: 25px;
+}
+
+.mission-goals-text iframe{
+    float: left;
+    margin-right: 30px;
 }
